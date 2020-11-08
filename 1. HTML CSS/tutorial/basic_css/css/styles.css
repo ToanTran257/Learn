@@ -1,28 +1,22 @@
-body {
-  text-transform: uppercase;
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
 }
 
-h1 {
-  text-transform: lowercase;
-  text-decoration: line-through;
+.banner {
+  background: url("../images/smoothie.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.one {
-  line-height: 2.5em;
-}
-
-.two {
-  letter-spacing: 5px;
-  text-decoration: overline;
-  line-height: 2rem;
-}
-
-.three {
-  word-spacing: 20px;
-  text-decoration: underline;
-}
-
-a {
-  font-size: 40px;
-  text-decoration: none;
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/smoothie.jpeg") center/cover no-repeat fixed;
 }
