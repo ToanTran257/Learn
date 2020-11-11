@@ -1,31 +1,11 @@
-div {
-  width: 100px;
+h1 {
+  text-shadow: 1px 1px 6px red;
+}
+
+.box {
+  width: 200px;
   height: 100px;
   background: blue;
-  color: white;
-  margin: 15px;
-  transition: all 1s;
-}
-
-div:hover {
-  transform: translateX(100px);
-}
-
-.default {
-  transition-timing-function: default;
-}
-.ease {
-  transition-timing-function: ease;
-}
-.linear {
-  transition-timing-function: linear;
-}
-.ease-in {
-  transition-timing-function: ease-in;
-}
-.ease-out {
-  transition-timing-function: ease-out;
-}
-.ease-in-out {
-  transition-timing-function: ease-in-out;
+  margin: 20px;
+  box-shadow: 3px 5px 5px green;
 }
