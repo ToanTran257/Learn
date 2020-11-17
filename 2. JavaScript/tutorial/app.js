@@ -1,4 +1,4 @@
-// CallBack
+// CallBack, Higher Order functions, Functions as First Class OBjects
 
 function morning(name) {
  return `Good morning ${name.toUpperCase()}`;
