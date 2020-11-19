@@ -4,9 +4,9 @@ const ctx = canvas.getContext('2d');
 ctx.fillStyle = 'red';
 
 function draw(x, y) {
-const circle = new Path2D();
-circle.arc(x, y, 3, 0, 2 * Math.PI);
-ctx.fill(circle)
+ const circle = new Path2D();
+ circle.arc(x, y, 3, 0, 2 * Math.PI);
+ ctx.fill(circle)
 }
 
 let isMouseDown = false;
